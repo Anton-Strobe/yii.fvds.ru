@@ -7,5 +7,7 @@ use yii\web\Controller;
 
 class PostController extends Controller
 {
-public runction
+public runction actionIndex(){
+    return __METHOD__
+}
 }
