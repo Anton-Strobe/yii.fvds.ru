@@ -6,14 +6,17 @@ use yii\web\Controller;
 
 class TestController extends Controller
 {
+   public $defaultActinon = 'test';
+
+    public function actionIndex()
+    {
+        return '<h1>Test Index</h1>';
+    }
+
     public function actionMyTest()
     {
-        echo 'hello world';
+        return __method__;
     }
-public function actionIndex()
-{
-return 'Hello World!!!';
+ 
 }
 
-
-}
