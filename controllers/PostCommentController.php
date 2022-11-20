@@ -1,13 +1,13 @@
-
 <?php
 
 namespace app\controllers;
 
 use yii\web\Controller;
 
-class PostController extends Controller
+class PostCommentController extends Controller
 {
-public runction actionIndex(){
-    return __METHOD__
+public function actionIndex()
+{
+    return __METHOD__;
 }
 }
