@@ -10,8 +10,9 @@ class TestController extends Controller
     {
         echo 'hello world';
     }
-public function actionIndex()
+public function actionIndex($name)
 {
+    var_damp($name);
 return 'Hello World!!!';
 }
 
