@@ -12,7 +12,7 @@ class TestController extends Controller
     }
 public function actionIndex($name)
 {
-    var_damp($name);
+    var_dump($name);
 return 'Hello World!!!';
 }
 
