@@ -11,7 +11,7 @@ class TestController extends Controller
     {
     return [
         'test' => 'app\components\HelloAction',
-    ];
+    ]; 
     }
 
     public function actionMyTest()
