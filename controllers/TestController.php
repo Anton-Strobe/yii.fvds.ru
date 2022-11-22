@@ -24,8 +24,4 @@ public function actionIndex($name)
 return 'Hello World!!!';
 }
 
-
-
-
-
 }
