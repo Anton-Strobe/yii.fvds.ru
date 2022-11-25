@@ -11,6 +11,7 @@ class TestController extends Controller
     public function actionIndex()
     {
         return '<h1>Test Index</h1>';
+        return '<h2> test h2 <h2>';
     }
 
     public function actionMyTest()
